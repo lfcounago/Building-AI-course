@@ -1,0 +1,7 @@
+Write a program that reads cabin details and prices from a CSV file (a standard format for tabular data) and fits a linear regression model to it. The program should be able to handle any number of data points (cabins) described by any number of features (like size, size of sauna, number of bathrooms, ...).
+
+You can read a CSV file with the function np.genfromtxt(datafile, skip_header=1). This will return a numpy array that contains the feature data in the columns preceding the last one, and the price data in the last column. The option skip_header=1 just means that the first line in the file is supposed to contain just the column names and shouldn't be included in the actual data.
+
+The output of the program should be the estimated coefficients and the predicted or "fitted" prices for the same set of cabins used to estimate the parameters. So if you fit the model using data for six cabins with known prices, the program will print out the prices that the model predicts for those six cabins (even if the actual prices are already given in the data).
+
+Note that here we will actually only simulate the file input using Python's io.StringIO function that takes an input string and pretends that the contents is coming from a file. In practice, you would just name the input file that contains the data in the same format as the string input below.

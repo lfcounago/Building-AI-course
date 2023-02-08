@@ -1,0 +1,7 @@
+We have two dice in our desk drawer. One is a normal, plain die with six sides such that each of the sides comes up with equal 1/6 probability. The other one is a loaded die that also has six sides, but that however gives the outcome 6 with every second try on the average, the other five sides being equally probable.
+
+Thus with the first, normal die the probabilities of each side are the same, 0.167 (or 16.7 %). With the second, loaded die, the probability of 6 is 0.5 (or 50 %) and each of the other five sides has probability 0.1 (or 10 %).
+
+The following program gets as its input the choice of the die and then simulates a sequence of ten rolls.
+
+Your task: starting from the odds 1:1, use the naive Bayes method to update the odds after each outcome to decide which of the dice is more likely. Edit the function bayes so that it returns True if the most likely die is the loaded one, and False otherwise. Remember to be careful with the indices when accessing list elements!

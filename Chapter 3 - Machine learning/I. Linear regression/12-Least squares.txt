@@ -1,0 +1,1 @@
+Write a program that calculates the squared error for multiple sets of coefficient values and prints out the index of the set that yields the smallest squared error: this is a poor man's version of the least squares method where we only consider a fixed set of alternative coefficient vectors instead of finding the global optimum.

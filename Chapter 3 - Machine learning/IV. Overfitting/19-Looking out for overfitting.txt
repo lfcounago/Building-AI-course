@@ -1,0 +1,7 @@
+The program below uses the k-nearest neighbors algorithm. The idea is to not only look at the single nearest training data point (neighbor) but for example the five nearest points, if k=5. The normal nearest neighbor classifier amounts to using k=1.
+
+Write a program that does the classification for some value of k and prints out the training and testing accuracy.
+
+Hint: You can get the model accuracy for a given set using the function knn.score.
+
+Try different values of k to answer the questions below.

@@ -1,0 +1,3 @@
+Suppose the current solution has score S_old = 150 and you try a small modification to create a new solution with score S_new = 140. In the greedy solution, this new solution wouldn't be accepted because it would mean a decrease in the score. In simulated annealing, the new solution is accepted with a certain probability as explained above.
+
+Modify the accept_prob function so that it returns the probability of accepting the new state using simulated annealing. The program should take the two score values (the current and the new) and the temperature value as arguments.

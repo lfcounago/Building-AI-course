@@ -1,0 +1,8 @@
+Write a program that reads data about one set of cabins (training data), estimates linear regression coefficients based on it, then reads data about another set of cabins (test data), and predicts the prices in it. Note that both data sets contain the actual prices, but the program should ignore the prices in the second set. They are given only for comparison.
+You can read the data into the program the same way as in the previous exercise.
+
+You should then separate the feature and price data that you have just read from the file into two separate arrays names x_train and y_train, so that you can use them as argument to np.linalg.lstsq.
+
+The program should work even if the number of features used to describe the cabins differs from five (as long as the same number of features are given in each file).
+
+The output should be the set of coefficients for the linear regression and the predicted prices for the second set of cabins.

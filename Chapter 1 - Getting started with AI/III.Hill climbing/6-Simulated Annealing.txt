@@ -1,0 +1,7 @@
+Let's use simulated annealing to solve a simple two-dimensional optimization problem. The following code runs 50 optimization tracks in parallel (at the same time). It currently only looks around the current solution and only accepts moves that go up. Modify the program so that it uses simulated annealing.
+
+Remember that the probability of accepting a solution that lowers the score is given by prob = exp(–(S_old - S_new)/T). Remember to also adjust the temperature in a way that it decreases as the simulation goes on, and to handle T=0 case correctly.
+
+Your goal is to ensure that on the average, at least 30 of the optimization tracks find the global optimum (the highest peak).
+
+If plotting the code takes too long, use this gist to plot the code locally on your computer. It should be significantly faster.

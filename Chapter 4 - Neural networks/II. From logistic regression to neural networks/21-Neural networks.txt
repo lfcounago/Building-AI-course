@@ -1,0 +1,7 @@
+We have trained a simple neural network with a larger set of cabin price data. The network predicts the price of the cabin based on the attributes of the cabin. The network consists of an input layer with five nodes, a hidden layer with two nodes, a second hidden layer with two nodes, and finally an output layer with a single node. In addition, there is a single bias node for each hidden layer and the output layer.
+
+The program below uses the weights of this trained network to perform what is called a forward pass of the neural network. The forward pass is running the input variables through the neural network to obtain output, in this case the price of a cabin of given attributes.
+
+The program is incomplete though. The program only does the forward pass up to the first hidden layer and is missing the second hidden layer and the output layer.
+
+Modify the program to do a full forward pass and print out the price prediction. To do this, write out the remaining forward pass operations and use the ReLU activation function for the hidden nodes, and a linear (identity) activation for the output node. ReLU activation function returns either the input value of the function, or zero, whichever is the largest, and linear activation just returns the input as output. After these are done, get a prediction for the price of a cabin which is described by the following feature vector [82, 2, 65, 3, 516].
